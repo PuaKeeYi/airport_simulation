@@ -1,0 +1,21 @@
+F1:fried rice:8.00:available
+F2:nasi lemak:5.50:not available
+F3:fried noodle:6.00:available
+F4:fries:3.00:available
+F5:chicken rice:8.00:available
+F6:American breakfast:10.00:not available
+B1:coffee:2.50:not available
+B2:teh:3.00:available
+B3:teh O:3.00:available
+B4:teh C:3.00:available
+B5:milo:3.00:available
+B6:green tea:4.50:not available
+F7:chicken chop:10.00:available
+B7:orange juice:2.00:available
+F8:pasta:10.00:available
+B8:apple juice:4.00:not available
+B9:ice lemon tea:3.50:available
+F9:fried egg:1.00:not available
+F10:vanilla ice cream:2.50:not available
+F11:Cai Tao Kueh:4.50:not available
+B10:cappuccino:6.00:not available
