@@ -1,4 +1,4 @@
-## ✈️ Airport Simulation (Concurrent Programming in Java)
+## Airport Simulation (Concurrent Programming in Java) ✈️ 
 
 Programming language - Java    IDE - Apache Netbeans
 
@@ -6,12 +6,12 @@ Welcome to the Airport Simulation project! This is a Java-based simulation that 
 
 
 
-#🌟 Project Overview
+# Project Overview 🌟
 
 This simulation was built as part of a Concurrent Programming assignment. It showcases how multiple threads (representing planes, ATC, passengers, and a refueling truck) interact while ensuring safe and efficient airport operations. 
 
 
-#🏗️ How It Works
+# How It Works 🏗️
 
 ✅ One Runway, Many Planes – Only one plane can land/take off at a time. 
 
@@ -44,7 +44,7 @@ Total passengers boarded
 
 
 
-#🔥 The Concurrency Challenges
+# The Concurrency Challenges 🔥 
 
 Passengers boarding/disembarking happen concurrently 
 
@@ -56,7 +56,7 @@ Proper synchronization using Java's concurrency features (synchronized, Reentran
 
 
 
-#🚀 Running the Simulation
+# Running the Simulation 🚀
 
 Feel free to try out yourself! 
 
