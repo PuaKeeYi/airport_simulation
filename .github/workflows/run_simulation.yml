@@ -19,10 +19,10 @@ jobs:
       - name: Compile Java Files
         run: |
           cd CCP_Airport/src
-          javac -d . ccp_airport/airport.java
+          javac -d . ccp_airport/*.java
 
       - name: Run Simulation
         run: |
-          cd CCP_Airport/src/ccp_airport
-          java airport.Main
+          cd CCP_Airport/src
+          java ccp_airport.airport
 
