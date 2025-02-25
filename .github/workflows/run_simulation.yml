@@ -1,0 +1,28 @@
+name: Run Airport Simulation
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Compile Java Files
+        run: |
+          cd CCP_Airport/src
+          javac -d . ccp_airport/*.java
+
+      - name: Run Simulation
+        run: |
+          cd CCP_Airport/src
+          java ccp_airport.Main
+
